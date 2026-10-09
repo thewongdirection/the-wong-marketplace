@@ -39,6 +39,16 @@
       "tags": ["can-slim", "stocks", "screening", "tradingview"]
     },
     {
+      "name": "ibkr-review-ticker",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thewongdirection/ibkr-review-ticker.git"
+      },
+      "description": "Illustrated single-stock review dashboard using live IBKR data: fundamentals vs peers, options and volatility positioning, and a probabilistic 6-month outlook.",
+      "category": "finance",
+      "tags": ["ibkr", "stocks", "options", "dashboard"]
+    },
+    {
       "name": "redemption-seats-search",
       "source": {
         "source": "url",
