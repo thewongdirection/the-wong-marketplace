@@ -7,20 +7,20 @@ A Claude Code plugin marketplace for sharing skills.
 Add the marketplace once, then install any plugin from it:
 
 ```
-/plugin marketplace add <owner>/the-wong-marketplace
+/plugin marketplace add thewongdirection/the-wong-marketplace
 /plugin install hello-skill@the-wong-marketplace
 ```
 
 Or from a shell:
 
 ```bash
-claude plugin marketplace add <owner>/the-wong-marketplace
+claude plugin marketplace add thewongdirection/the-wong-marketplace
 claude plugin install hello-skill@the-wong-marketplace
 ```
 
 Installed skills are namespaced by plugin: `/hello-skill:hello`.
 
-To try the marketplace from a local clone, use a path instead of `<owner>/...`:
+To try the marketplace from a local clone, use a path instead of the GitHub name:
 
 ```bash
 claude plugin marketplace add ./the-wong-marketplace
