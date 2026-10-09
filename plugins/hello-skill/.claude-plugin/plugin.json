@@ -1,0 +1,10 @@
+{
+  "name": "hello-skill",
+  "version": "0.1.0",
+  "description": "Example skill that greets the user. Copy this plugin as a starting point for new skills.",
+  "author": {
+    "name": "The Wong Marketplace"
+  },
+  "license": "MIT",
+  "keywords": ["example", "starter"]
+}

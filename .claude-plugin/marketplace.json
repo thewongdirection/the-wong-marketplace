@@ -1,0 +1,19 @@
+{
+  "name": "the-wong-marketplace",
+  "description": "A curated marketplace of Claude Code skills.",
+  "owner": {
+    "name": "The Wong Marketplace"
+  },
+  "metadata": {
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "hello-skill",
+      "source": "./plugins/hello-skill",
+      "description": "Example skill that greets the user. Copy this plugin as a starting point for new skills.",
+      "category": "examples",
+      "tags": ["example", "starter"]
+    }
+  ]
+}

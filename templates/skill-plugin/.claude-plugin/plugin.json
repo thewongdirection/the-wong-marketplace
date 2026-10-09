@@ -1,0 +1,10 @@
+{
+  "name": "your-plugin-name",
+  "version": "0.1.0",
+  "description": "One sentence on what this plugin's skills do.",
+  "author": {
+    "name": "Your Name"
+  },
+  "license": "MIT",
+  "keywords": []
+}
