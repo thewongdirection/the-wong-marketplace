@@ -14,6 +14,16 @@
       "description": "Example skill that greets the user. Copy this plugin as a starting point for new skills.",
       "category": "examples",
       "tags": ["example", "starter"]
+    },
+    {
+      "name": "securities-filings-lookup",
+      "source": {
+        "source": "github",
+        "repo": "thewongdirection/securities-filings-lookup"
+      },
+      "description": "Look up official securities filings (SEC EDGAR, HKEX, CNINFO, FCA NSM, TDnet/EDINET, SGX) by ticker or company name and save the originals as PDFs.",
+      "category": "finance",
+      "tags": ["sec", "edgar", "filings", "equities"]
     }
   ]
 }
