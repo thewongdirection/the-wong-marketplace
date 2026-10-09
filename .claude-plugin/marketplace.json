@@ -9,21 +9,44 @@
   },
   "plugins": [
     {
-      "name": "hello-skill",
-      "source": "./plugins/hello-skill",
-      "description": "Example skill that greets the user. Copy this plugin as a starting point for new skills.",
-      "category": "examples",
-      "tags": ["example", "starter"]
-    },
-    {
       "name": "securities-filings-lookup",
       "source": {
-        "source": "github",
-        "repo": "thewongdirection/securities-filings-lookup"
+        "source": "url",
+        "url": "https://github.com/thewongdirection/securities-filings-lookup.git"
       },
       "description": "Look up official securities filings (SEC EDGAR, HKEX, CNINFO, FCA NSM, TDnet/EDINET, SGX) by ticker or company name and save the originals as PDFs.",
       "category": "finance",
       "tags": ["sec", "edgar", "filings", "equities"]
+    },
+    {
+      "name": "can-slim-grader",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thewongdirection/can-slim-grader.git"
+      },
+      "description": "Grade a single stock ticker against the CAN SLIM growth-investing model and return a C-A-N-S-L-I-M scorecard with a BUY-RANGE / WATCH / AVOID verdict.",
+      "category": "finance",
+      "tags": ["can-slim", "stocks", "growth-investing", "equities"]
+    },
+    {
+      "name": "can-slim-recommend",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thewongdirection/can-slim-recommend.git"
+      },
+      "description": "Sweep the market sector by sector with live TradingView data and return ranked recommendation lists graded with the CAN SLIM methodology.",
+      "category": "finance",
+      "tags": ["can-slim", "stocks", "screening", "tradingview"]
+    },
+    {
+      "name": "redemption-seats-search",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thewongdirection/redemption-seats-search.git"
+      },
+      "description": "Find business and first class award seats between two airports on a given date via the seats.aero Partner API. Requires a seats.aero API key.",
+      "category": "travel",
+      "tags": ["award-travel", "flights", "points", "seats-aero"]
     }
   ]
 }
