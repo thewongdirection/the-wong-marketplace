@@ -57,6 +57,16 @@
       "description": "Find business and first class award seats between two airports on a given date via the seats.aero Partner API. Requires a seats.aero API key.",
       "category": "travel",
       "tags": ["award-travel", "flights", "points", "seats-aero"]
+    },
+    {
+      "name": "transcribe-media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thewongdirection/transcribe-media.git"
+      },
+      "description": "Accurate transcription of audio, video and URLs (such as YouTube) with Whisper large-v3: picks the model for your hardware, optional speaker labels, and an opt-in cloud GPU. Local and free by default.",
+      "category": "productivity",
+      "tags": ["transcription", "whisper", "speech-to-text", "youtube", "subtitles"]
     }
   ]
 }
